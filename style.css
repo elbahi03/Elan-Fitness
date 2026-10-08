@@ -44,6 +44,10 @@ button:focus-visible {
     outline-offset: 2px;
 }
 
+svg {
+    height: 20px;
+    margin-bottom: -5px;
+}
 /* section accueil */
 .conteneur {
     width: 100%;
@@ -554,10 +558,33 @@ button:focus-visible {
 }
 
 /* section contact */
+.contactez-nous {
+    margin: 30px 0;
+}
+
+.contactez-nous h1,p {
+    text-align: center;
+}
+
+.cantacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.contact-info h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+
+
 
 .contact {
     padding: 5px;
-    margin: 100px 150px;
+    width: 35%;
+    margin: 50px 100px;
     border: 1px solid #FF6B2C;
     border-radius: 20px;
 }
