@@ -48,6 +48,7 @@ svg {
     height: 20px;
     margin-bottom: -5px;
 }
+
 /* section accueil */
 .conteneur {
     width: 100%;
@@ -258,6 +259,12 @@ svg {
     border-radius: 16px;
     border: 1px solid #E5E7EB;
     box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+    transition: 0.3s;
+}
+
+.hero-image:hover {
+    height: 450px;
+    max-width: 110%;
 }
 
 /* chiffres hero */
@@ -562,7 +569,8 @@ svg {
     margin: 30px 0;
 }
 
-.contactez-nous h1,p {
+.contactez-nous h1,
+p {
     text-align: center;
 }
 
